@@ -1,2 +1,2 @@
-# cap1quest-es
-Questões referentes ao capítulo 1 do livro Fundamentos da programação em C/Java/Assembly.
+# cap3quest-es
+Questões referentes ao capítulo 3 do livro Fundamentos da programação em C/Java/Assembly.
