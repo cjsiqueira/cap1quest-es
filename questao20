@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+	double angulo, distancia_parede, rad;
+	scanf ("%lf%lf", &angulo, &distancia_parede); 
+	rad = M_PI*angulo/180; // transforma o valor do ângulo informado para radianos.
+	printf ("%0.2lf", distancia_parede/cos(rad)); // calcula a distância por meio da lei dos cossenos; cos(a) = lado adjacente/hipotenusa => hipotenusa = lado adjacente/cos(a).
+	return 0;
+}
