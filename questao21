@@ -1,0 +1,11 @@
+#include <stdio.h>
+#define sal_minimo 1412 // define o salário minímo(atual).
+
+int main () {
+	float hora_extra, horas_trabalhadas;
+	#define valorph sal_minimo/8 // define o valor por hora como um oitavo do salário minimo.
+	#define valorph_he sal_minimo/4 // define o valor por hora extra como um quarto do salário minimo.
+	scanf ("%f%f", &hora_extra, &horas_trabalhadas); // ler a quantidade de horas extras feitas e as trabalhadas respectivamente.
+	printf ("%0.2f", (horas_trabalhadas*valorph) + (hora_extra * valorph_he));
+	return 0;	
+}
